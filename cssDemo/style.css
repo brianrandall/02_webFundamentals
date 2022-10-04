@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+
+h1 {
+    color: purple;
+}
+
+p {
+    color: white;
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+
+
+
+#pi {
+    background-color: peru;
+    color: antiquewhite;
+}
+
+.catInfo {
+    display: inline-block;
+    background-color: slateblue;
+    width: calc(50% - 40px);
+    padding: 1px;
+    margin: 1%;
+    height: 200px;
+    vertical-align: top;
+}
+
+.catInfo > ul {
+    margin-left: 15px;
+}

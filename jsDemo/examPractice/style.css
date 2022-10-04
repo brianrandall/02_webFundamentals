@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: mediumaquamarine;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+
+#header {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+#navButtons button {
+    padding: 1px
+}
+
+#subscribeButton {
+    background-color: yellow;
+}
+
+#container {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: mediumaquamarine;
+}
+
+#mainPost {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+}
+
+#articles li {
+    list-style-type: circle;
+}
+
+
+#featuredKeyboard img {
+    width: 50%
+}
+
+#featuredKeyboard div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+#keyboardGallery {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.post {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: calc(47% - 20px)
+    height: 250px;
+}
+
+.post img {
+    width: 60%;
+}
+
+.keyboardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.post button {
+    margin-left: 4px;
+    margin-right: 4px;
+}

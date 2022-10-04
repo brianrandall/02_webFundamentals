@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+#advert {
+    background-color: palevioletred;
+    border: 2px solid black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#siteNav h1 {
+    font-weight: normal;
+}
+
+#siteNav img {
+    width: 33px;
+    transform: scaleX(-1);
+}
+
+#siteNav textarea {
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    resize: none;
+}
+
+#siteNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 8% 5px 8%;
+    align-items: center;
+}
+
+#cartStuff {
+    display: flex;
+    align-items: center;
+}
+
+#siteLinx a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+#siteLinx {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30% 10px;
+}
+
+#activeLink {
+    /* text-decoration: underline palevioletred 4px; */
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom: 4px solid palevioletred;
+    padding-bottom: 3px;
+}
+
+#siteContainer {
+    padding: 10px 8%;
+}
+
+#pageHeader h1 {
+    font-size: xxx-large;
+}
+
+#pageHeader {
+    background-color: palevioletred;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#productsInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#selector {
+    padding: 5px;
+}
+
+#boldText {
+    font-weight: bold;
+}
+
+#productContainer img {
+    width: 250px;
+}
+
+#productContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plushy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plushName {
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+.addToCart {
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: x-large;
+    background-color: palevioletred;
+    border-radius: 15%;
+    border-style: none;
+    padding: 5px 15px;
+
+}

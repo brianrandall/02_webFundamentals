@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="advert">
+        <h2>FREE PHONE GRIP ON SELECT PURCHASES</h2>
+    </div>
+    <div id="siteNav">
+        <h1>PlushStar</h1>
+        <textarea name="search" cols="80" rows="1">Search</textarea>
+        <div id="cartStuff">
+            <span id="cartNum">0</span>
+            <img src="img/cart-dark.png" alt="shopping cart">
+        </div>
+    </div>
+    <div id="siteLinx">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#" id="activeLink">Products</a>
+        <a href="#">Sales</a>
+        <a href="#">Blog</a>
+        <a href="#" id="contactLink" onclick="contactInfo()">Contact Us</a>
+    </div>
+    <div id="siteContainer">
+        <div id="pageHeader">
+            <h1>Plushy Store</h1>
+        </div>
+        <div id="productsInfo">
+            <div id="productAmount">
+                62 Products, sorted by
+                <span id="boldText">Best Selling</span>
+            </div>
+            <div id="sortBy">
+                <span>Sort By</span>
+                <select id="selector" onchange="sortBy()">
+                    <option value="bestSelling">Best Selling</option>
+                    <option value="price">Price</option>
+                </select>
+            </div>
+        </div>
+        <div id="productContainer">
+            <div class="plushy">
+                <img src="img/product-image.png" alt="Mischief Mouse">
+                <span class="plushName">Mischief Mouse</span>
+                <button class="addToCart" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="plushy">
+                <img src="img/product-image.png" alt="Shy Shrew">
+                <span class="plushName">Shy Shrew</span>
+                <button class="addToCart" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="plushy">
+                <img src="img/product-image.png" alt="Hangry Hamster">
+                <span class="plushName">Hangry Hamster</span>
+                <button class="addToCart" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="plushy">
+                <img src="img/product-image.png" alt="Chilly Chinchilla">
+                <span class="plushName">Chilly Chinchilla</span>
+                <button class="addToCart" onclick="addToCart()">BUY</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

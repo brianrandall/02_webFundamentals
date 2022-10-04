@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="navbar">
+    <h1>DojoWeather</h1>
+    <div class="cities">
+        <a href="" class="cityAlert" onclick="loadingAlert()">Burbank</a>
+        <a href="" class="cityAlert" onclick="loadingAlert()">Chicago</a>
+        <a href="" class="cityAlert" onclick="loadingAlert()">Dallas</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="subNav">
+        <h2>San Jose</h2>
+        <div class="tempType">
+            <p>show temperature in</p>
+            <select id="tempSelector" onchange="changeStuff()">
+                <option value="F">F°</option>
+                <option value="C">C°</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="weeklyForecast">
+        <div id="today" class="day">
+            <center>
+                <h2>Today</h2><br>
+                <img src="img/some_rain.png"><br>
+                some rain
+            </center>
+            <div class="temp">
+                <span class="highTemp" id="temp1">
+                    24°
+                </span>
+                <span class="lowTemp" id="temp2">
+                    18°
+                </span>
+
+            </div>
+        </div>
+        <div class="day">
+            <center>
+                <h2>Tomorrow</h2><br>
+                <img src="img/some_sun.png"><br>
+                some sun
+            </center>
+            <div class="temp">
+                <span class="highTemp" id="temp3">
+                    27°
+                </span>
+                <span class="lowTemp" id="temp4">
+                    19°
+                </span>
+
+            </div>
+        </div>
+        <div class="day">
+            <center>
+                <h2>Friday</h2><br>
+                <img src="img/some_clouds.png"><br>
+                some rain
+            </center>
+            <div class="temp">
+                <span class="highTemp" id="temp5">
+                    21°
+                </span>
+                <span class="lowTemp" id="temp6">
+                    16°
+                </span>
+
+            </div>
+        </div>
+        <div id="saturday" class="day">
+            <center>
+                <h2>Saturday</h2><br>
+                <img src="img/some_sun.png"><br>
+                some sun
+            </center>
+            <div class="temp">
+                <span class="highTemp" id="temp7">
+                    26°
+                </span>
+                <span class="lowTemp" id="temp8">
+                    21°
+                </span>
+
+            </div>
+        </div>
+    </div>
+    <div class="cookieAlert">
+        <img src="img/cookie.png">
+        <div class="cookieAlertText">
+            <h3>
+                Stop! Cookie time!
+            </h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features
+            and to analyze our traffic. <a href="#">Read more....</a></p>
+        </div>
+        <button class="acceptCookiesButton" onclick="byeByeCookies()">I Accept</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

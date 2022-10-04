@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+img {
+    width: 22%;
+}
+
+div{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.top {
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.mid {
+    background-color: palevioletred;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+}

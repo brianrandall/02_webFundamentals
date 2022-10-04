@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <div>
+        <form>
+            <label>First Name: * </label><input type="text" name="firstName">
+        </form>
+        <form>
+            <label>Last Name: * </label><input type="text" name="lastName">
+        </form>
+        <form>
+            <label>Email Address: * </label><input type="text" name="emailAddress">
+        </form>
+        <form>
+            <label>Password: * </label><input type="password" name="password">
+        </form>
+        <form>
+            <label>Confirm Password: * </label><input type="password" name="confirmPassword">
+        </form>
+        <form>
+            <label>Birthday: </label><input type="date" name="birthday">
+        </form>
+    </div>
+    <div>
+        Gender Identity: <br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Non-Binary"> Non-Binary
+        <input type="radio" name="gender" value="na"> I prefer not to answer
+    </div>
+    <div>
+        A short description about myself: <br>
+        <textarea name="about" cols="30" rows="4"></textarea>
+    </div>
+    <div>
+        Favorite Language: <select name="language">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>C++</option>
+            <option>C#</option>
+            <option>C</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="emailUpdates" checked> I would like to receive email offers!
+    </div>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>
+    <div>
+        * Indicates required field.
+    </div>
+</body>
+</html>
